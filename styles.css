@@ -1,0 +1,60 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+</style>
+body{
+    margin:0px;
+    padding:0px;
+    overflow:none;
+}
+#content-desktop {display: block;}
+#content-mobile {display: none;}
+#hamb {display: none;}
+
+@media screen and (max-width: 768px) {
+mobile
+#content-desktop {display: none;}
+#content-mobile {
+    display: block;
+    background-color:rgb(3, 5, 20); 
+    padding:0px;
+    margin:0px;
+    height:40px;;
+    width:100%;
+
+    
+
+
+}
+#hamb {display: block;
+    background-color:rgb(59, 59, 59);
+    height:500px;
+    width:200px;
+    float:right;
+}
+.botonb{
+    background:url("buts.jpg");
+    background-size:40px;
+    background-repeat: no-repeat;
+    width:45px;
+    height:40px;
+    left:450px;
+    float:right;
+    border:none;
+    
+}
+.brand{
+color:white;
+margin-top:57px;
+font-size:30px;
+padding:20px;
+text-decoration: none;
+font-family: 'Ubuntu', sans-serif;
+
+}
+.home{
+    display:block;
+    float:center;
+}
+
+
+}
