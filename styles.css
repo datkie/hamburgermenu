@@ -1,0 +1,195 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+.hamb,.home{
+    display:none;
+}
+body{
+    margin:0px;
+    padding:0px;
+    overflow:none;
+}
+.content{display: none;}
+.botonb{
+    display:none;
+}
+.mob{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:20px;
+  
+}
+.aboutpd{
+        font-family: 'Ubuntu', sans-serif;
+        font-size:20px;
+  
+    }
+.brand1{
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size:33px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.brandds{
+    color: white;
+    padding: 20px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    float:right;
+    font-family: 'Ubuntu', sans-serif;
+}
+.brandds:hover{
+    background-color:white;
+    color:black;
+
+   
+    
+
+    
+
+
+    }
+    .fbs{
+        font-size:40px;
+        text-decoration:none;
+        color:black;
+        animation-name: fb;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        transition:all 0.5s ease-in;
+    }
+    @keyframes fb{
+        from{font-size:40px;transform-style: preserve-3d;}
+        to{font-size:50px}
+    
+    }
+#content-desktop {
+    background-color:rgb(3, 5, 20); 
+    width:auto;
+    height:58px;;
+    display: block;
+    padding:0px;
+    margin:0px;
+
+
+}
+#content-mobile {display: none;}
+#hamb {display: none;}
+
+@media screen and (max-width: 768px) {
+
+#content-desktop {
+    display: none;
+}
+
+
+#content-mobile {
+    display: block;
+    background-color:rgb(3, 5, 20); 
+    padding:4px;
+    margin:0px;
+    height:40px;;
+    width:auto;
+    overflow:hidden;
+}
+.hamb {
+    background-color:rgb(59, 59, 59);
+    width:0px;
+    transition:all 1s ease-in-out;
+}
+@keyframes anim{
+    from{width:0px;}
+    to{width:200px;height:500px;}
+
+}
+@keyframes anims{
+    1%{width:200px;height:500px;}
+    50%{width:100px;height:100px;}
+    100%{width:0px;height:0px;}
+
+}
+.botonb{
+    background:url("buts.jpg");
+    background-size:40px;
+    background-repeat: no-repeat;
+    width:45px;
+    height:40px;
+    left:300px;
+    margin-right:0px;
+    float:right;
+    border:none;
+    transition:all 0.2s ease-in;
+    display:block;
+    
+}
+.botonb:hover{
+    border-color:none;
+    outline: none;
+}
+.brandd{
+color:white;
+margin-top:57px;
+font-size:30px;
+padding:13px;
+left:5px;
+text-decoration: none;
+font-family: 'Ubuntu', sans-serif;
+
+
+}
+.fbs{
+    font-size:40px;
+    text-decoration:none;
+    color:black;
+    animation-name: fb;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    transition:all 0.5s ease-in;
+}
+@keyframes fb{
+    from{font-size:40px;transform-style: preserve-3d;}
+    to{font-size:50px}
+
+}
+
+.home{
+    display:block;
+    padding:16px;
+    text-decoration: none;
+    color:white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home:hover{
+    background-color: antiquewhite;
+    color:rgb(68, 65, 87);
+    
+}
+.mobwels{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:20px;
+}
+.aboutp{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:20px;
+}
+.content{display: block;}
+
+.brand1{
+    display:none;
+}
+.brandds{
+    display:none;
+}
+.mob{
+    font-family: 'Ubuntu', sans-serif;
+    display: none;
+}
+.aboutpd{
+        font-family: 'Ubuntu', sans-serif;
+        display: none;
+    }
+.content-d{display: none;}
+}
+}
